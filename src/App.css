@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	padding: 5px 30px 5px 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+	flex: 100%;
+	display: flex;
+	flex-direction: column;  /* make main axis vertical */
+	justify-content: center; /* center items vertically, in this case */
+	align-items: center;
+}
+
+.list {
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 50%;
+	height: 450px;
+}
+
+.load {
+	margin-top: 20px;
+}
